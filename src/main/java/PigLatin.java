@@ -18,7 +18,7 @@ public class PigLatin {
      */
     public String returnPigLatin(String in){
         String output = "";
-        for(int i =0; i< in.length(); i++){
+        for(int i =0; i< in.length()-1; i++){
             output += in.charAt(i+1);
         }
         output = output + in.charAt(0) + "ay" ;
